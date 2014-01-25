@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		A93E0B6918934116009D0691 /* FizzBuzz.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = FizzBuzz.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		A93E0B62189340D4009D0691 = {
 			isa = PBXGroup;
 			children = (
+				A93E0B6918934116009D0691 /* FizzBuzz.rb */,
 			);
 			sourceTree = "<group>";
 		};
