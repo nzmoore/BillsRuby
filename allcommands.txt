@@ -1,0 +1,298 @@
+    1  java -version
+    2  ping d03nm133
+    3  pmset -g | grep standbydelay
+    4  man pmset
+    5  ping d01dbl04
+    6  ruby -v
+    7  rails -v
+    8  gem
+    9  gem list
+   10  python
+   11  python3
+   12  path
+   13  echo $path
+   14  echo $PATH
+   15  ls /usr/local/bin
+   16  ls /usr
+   17  ls /opt
+   18  ping d03nm133
+   19  ping d03nm133.bulder.ibm.com
+   20  ping d03nm133.boulder.ibm.com
+   21  ping d03nm133.boulder.ibm.com
+   22  ping d03nm133.boulder.ibm.com
+   23  java -version
+   24  ruby -v
+   25  rvm -v
+   26  git
+   27  git -v
+   28  git --version
+   29  rvm
+   30  curl -L https://get.rvm.io | bash -s
+   31  rvm requirements
+   32  /Users/bill.rvm/scripts/rvm
+   33  /Users/bill/.rvm/scripts/rvm
+   34  exit
+   35  rvm requirements
+   36  rvm list known
+   37  ruby -v
+   38  port
+   39  /opt/local/bin/port
+   40  ls -al
+   41  echo $PATH
+   42  edit .bash_profile
+   43  open -a TextWrangler .bash_profile
+   44  ls /etc
+   45  ls /etc/paths
+   46  cat /etc/paths
+   47  sudo nano /etc/paths
+   48  hostname
+   49  echo $PATH
+   50  port
+   51  rvm requirements
+   52  vi
+   53  gem
+   54  gem list
+   55  gem -v
+   56  rvm help
+   57  rvm help list
+   58  rvm list
+   59  rvm list known
+   60  rvm install 1.9.3
+   61  rvm list
+   62  ruby -v
+   63  gem -v
+   64  gen update --system
+   65  gem update --system
+   66  sudo gem update --system
+   67  gem -v
+   68  history
+   69  gem install rails
+   70  rvm list
+   71  rvm help
+   72  rvm help use
+   73  rvm use 1.9.3
+   74  gem -v
+   75  which gem
+   76  rvm list
+   77  rvm use 2.0.0
+   78  which gem
+   79  gem -v
+   80  ruby -v
+   81  gem install rails
+   82  mkdir RailsApps
+   83  cd RailsApps/
+   84  rails -v
+   85  rvm list
+   86  rvm help
+   87  rvm list
+   88  rvm remove ruby-head
+   89  rvm list
+   90  pwd
+   91  history > railstutorialsetup.txt
+   92  ls 
+   93  cat railstutorialsetup.txt 
+   94  hostname
+   95  rvm use 2.0.0
+   96  rails -v
+   97  ls
+   98  cd RailsApps/
+   99  rails new first_app
+  100  ls
+  101  cd first_app/
+  102  ls
+  103  TextWrangler
+  104  open -a TextWragler Gemfile
+  105  open -a TextWrangler Gemfile
+  106  ls
+  107  rails server
+  108  node
+  109  node
+  110  git help
+  111  git help config
+  112  git show config
+  113  git config
+  114  git config -l
+  115  git config --get-all
+  116  git config --global user.name "Bill Moore"
+  117  git config -l
+  118  git config --global user.email "bill@nzmoore.com"
+  119  git config -l
+  120  git co
+  121  git config --global alias.co checkout
+  122  git co
+  123  pwd
+  124  git init
+  125  brew
+  126  port --help
+  127  port help
+  128  port version
+  129  port list
+  130  port list gimp
+  131  sudo port selfupdate
+  132  port upgrade outdated
+  133  port installed
+  134  sudo port install gimp
+  135  which gimp
+  136  gimp
+  137  setenv DISPLAY :0.0
+  138  set $DISPLAY=:0.0
+  139  gimp
+  140  echo $DISPLAY
+  141  open-x11 gimp
+  142  gimp
+  143  cd first_app/
+  144  ls
+  145  cd RailsApps/
+  146  ls -al
+  147  git --help
+  148  git status
+  149  cd first_app/
+  150  git status
+  151  ls -al
+  152  open -a TextWrangler .gitignore
+  153  git status
+  154  git log
+  155  git add .
+  156  git log
+  157  git status
+  158  git commit -m "Initial repository"
+  159  git status
+  160  git log
+  161  git remote add origin https://github.com/nzmoore/first_app.git
+  162  git push -u origin master
+  163  git branch
+  164  git status
+  165  git mv README.rdoc README.md
+  166  open -a TextWrangler README.md
+  167  git status
+  168  cd .ssh
+  169  mkdir .ssh
+  170  cd .ssh
+  171  ls
+  172  ssh-keygen 
+  173  ssh-keygen -t rsa -C "bill@nzmoore.com"
+  174  ls -al
+  175  pbcopy < id_rsa.pub
+  176  ssh -T git@github.com
+  177  git remote add origin https://github.com/nzmoore/first_app.git
+  178  git remote add origin https://github.com/nzmoore/first_app.git
+  179  pwd
+  180  /var/folders/x8/911b5mz92hl1t0jls2m9nzpr0000gn/T/Cleanup\ At\ Startup/swapvariables-412317214.793.rb.command ; exit;
+  181  ruby -v
+  182  rvm use 2.0.0
+  183  ruby -v
+  184  history
+  185  history | grep rvm
+  186  rvm list
+  187  rvm list
+  188  rvm list known
+  189  rvm list
+  190  rvm install 2.1.0
+  191  port selfupdate
+  192  port -v
+  193  port selfupdate
+  194  port -v selfupdate
+  195  sudo port selfupdate
+  196  sudo port upgrade outdated
+  197  rvm get stable
+  198  rvm -v
+  199  port -v
+  200  cd 
+  201  cd BillsRuby/
+  202  git status
+  203  git --help
+  204  git log
+  205  git show
+  206  history | grep git
+  207  history | grep ssh
+  208  ruby -v
+  209  rvm use 2
+  210  ruby -v
+  211  irb
+  212  irb
+  213  irb
+  214  irb
+  215  ping d01db092.boulder.ibm.com
+  216  ping d01db092r.pok.ibm.com
+  217  ping d01db092.pok.ibm.com
+  218  /Applications/IBM\ Application\ Support/Collect\ IBM\ Notes\ hang\ data\ and\ exit\ client.app/Contents/MacOS/helper ; exit;
+  219  cd BillsRuby/
+  220  HelloRuby
+  221  HelloRuby.rb
+  222  rvm use 2
+  223  history | grep rvm
+  224  rvm list
+  225  rvm use 2.1
+  226  rvm install ruby-2.1
+  227  rvm use 2.1
+  228  rvm -v
+  229  rvm list
+  230  exit
+  231  ruby -v
+  232  rvm list
+  233  rvm use 1.9
+  234  ruby -v
+  235  rvm use 2
+  236  rvm use 2.0
+  237  rvm --help
+  238  rvm --help update
+  239  history | grep rvm
+  240  history | grep rvm | less
+  241  rvm get stable
+  242  history | grep port
+  243  sudo port selfupdate
+  244  sudo port upgrade outdated
+  245  ruby -v
+  246  rvm -- help upgrade
+  247  rvm --help upgrade
+  248  ruby -v
+  249  rvm list
+  250  rvm use 1.9
+  251  ruby -v
+  252  rvm use 2
+  253  rvm use 2.0
+  254  rvm --help
+  255  rvm --help update
+  256  history | grep rvm
+  257  history | grep rvm | less
+  258  rvm get stable
+  259  history | grep port
+  260  sudo port selfupdate
+  261  sudo port upgrade outdated
+  262  ruby -v
+  263  rvm -- help upgrade
+  264  rvm --help upgrade
+  265  rvm --help get
+  266  rvm --help get | less
+  267  rvm --help get | less
+  268  rvm -v
+  269  ruby -v
+  270  rvm use 2.1
+  271  ruby -v
+  272  rvm list
+  273  rvm list known
+  274  rvm list known | less
+  275  rvm list known | less
+  276  rvm install rbx
+  277  ruby -v
+  278  ruby HelloRuby.rb
+  279  ls
+  280  cd BillsRuby/
+  281  ls
+  282  ruby HelloRuby.rb
+  283  ruby -v
+  284  ruby HelloRuby.rb
+  285  gem -v
+  286  gem --help
+  287  gem list --local
+  288  gem install sinatra
+  289  history | less
+  290  ruby -v
+  291  rvm use 2.0
+  292  ruby -v
+  293  gem -v
+  294  gem list
+  295  rvm use 2.1
+  296  gem -v
+  297  gem list
+  298  history > allcommands.txt
