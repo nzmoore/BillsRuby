@@ -1,0 +1,8 @@
+applications:
+- host: Madbill
+  disk: 1024M
+  name: Madbill
+  path: .
+  domain: ng.bluemix.net
+  mem: 128M
+  instances: 1

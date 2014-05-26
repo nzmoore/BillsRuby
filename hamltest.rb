@@ -1,0 +1,2 @@
+require 'haml'
+puts "hello"
